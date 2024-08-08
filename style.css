@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.cronometro {
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 18px;
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #1bc774;
+    color: black;
+}
+
+button:hover {
+    background-color: #ff070f;
+    color: white;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+@media screen {
+    .cronometro {
+        width: 100%;
+        max-width: 500px;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.918);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.918);
+    }
+}
